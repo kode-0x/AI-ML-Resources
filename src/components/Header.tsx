@@ -70,7 +70,7 @@ export function Header() {
           </motion.button>
 
           <motion.a
-            href="https://github.com"
+            href="https://github.com/kode-0x/AI-ML-Resources"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="GitHub"
