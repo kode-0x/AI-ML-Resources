@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    color-scheme: light;
+  }
+
+  body {
+    @apply bg-white dark:bg-neutral-950 text-neutral-900 dark:text-neutral-100 font-sans antialiased;
+    font-size: 14px;
+    line-height: 1.6;
+    transition: background-color 250ms ease, color 250ms ease;
+  }
+
+  html:has(.dark) {
+    color-scheme: dark;
+  }
+
+  ::selection {
+    @apply bg-neutral-900 text-white dark:bg-white dark:text-neutral-900;
+  }
+
+  ::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-neutral-100 dark:bg-neutral-900;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-neutral-400 dark:bg-neutral-600;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-neutral-600 dark:bg-neutral-400;
+  }
+
+  button,
+  a,
+  input {
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+@layer utilities {
+  .border-hairline {
+    border-width: 0.5px;
+  }
+}

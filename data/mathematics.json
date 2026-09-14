@@ -1,0 +1,158 @@
+{
+  "id": "mathematics",
+  "title": "Mathematics",
+  "description": "The foundation of all ML/AI: linear algebra, calculus, probability, and statistics.",
+  "order": 1,
+  "resources": [
+    {
+      "id": "math-003",
+      "title": "Essence of Linear Algebra | 3Blue1Brown",
+      "author": "3Blue1Brown",
+      "url": "https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab",
+      "type": "video",
+      "tags": ["linear-algebra", "free", "video"],
+      "description": "Stunning visual intuitions for vectors, matrices, and transformations. The best starting point.",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "math-002",
+      "title": "Linear Algebra | Gilbert Strang (MIT 18.06)",
+      "author": "Gilbert Strang",
+      "url": "https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/",
+      "type": "course",
+      "tags": ["linear-algebra", "free", "video"],
+      "description": "The gold standard linear algebra course. Strang's intuitive style makes even abstract concepts click.",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "math-012",
+      "title": "Immersive Linear Algebra",
+      "author": "J. Ström, K. Åström, T. Akenine-Möller",
+      "url": "http://immersivemath.com/ila/index.html",
+      "type": "book",
+      "tags": ["linear-algebra", "free"],
+      "description": "The world's first linear algebra book with fully interactive figures. Covers vectors, matrices, and transformations.",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "math-015",
+      "title": "Linear Algebra Done Right",
+      "author": "Sheldon Axler",
+      "url": "https://linear.axler.net/",
+      "type": "book",
+      "tags": ["linear-algebra", "free"],
+      "description": "A rigorous, proof-based approach to linear algebra emphasizing structure over computation. Free online.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "math-004",
+      "title": "Calculus | Gilbert Strang (MIT 18.01 & 18.02)",
+      "author": "Gilbert Strang",
+      "url": "https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/",
+      "type": "course",
+      "tags": ["calculus", "free", "video"],
+      "description": "Single and multivariable calculus from MIT OpenCourseWare. Essential for understanding gradients and optimization.",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "math-005",
+      "title": "Essence of Calculus | 3Blue1Brown",
+      "author": "3Blue1Brown",
+      "url": "https://www.youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr",
+      "type": "video",
+      "tags": ["calculus", "free", "video"],
+      "description": "Visual series rebuilding calculus intuition from scratch: derivatives, integrals, and the chain rule.",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "math-001",
+      "title": "Mathematics for Machine Learning (Book)",
+      "author": "Marc Peter Deisenroth, A. Aldo Faisal, Cheng Soon Ong",
+      "url": "https://mml-book.github.io/",
+      "type": "book",
+      "tags": ["linear-algebra", "calculus", "probability", "statistics", "free"],
+      "description": "A comprehensive book covering the mathematical foundations needed for ML, freely available online.",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "math-007",
+      "title": "Statistics and Probability | Khan Academy",
+      "author": "Khan Academy",
+      "url": "https://www.khanacademy.org/math/statistics-probability",
+      "type": "course",
+      "tags": ["statistics", "probability", "free"],
+      "description": "Friendly, interactive statistics and probability course covering all key concepts for ML.",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "math-006",
+      "title": "Introduction to Probability (MIT 6.041)",
+      "author": "John Tsitsiklis",
+      "url": "https://ocw.mit.edu/courses/6-041-probabilistic-systems-analysis-and-applied-probability-fall-2010/",
+      "type": "course",
+      "tags": ["probability", "free", "video"],
+      "description": "Rigorous probability theory with applications. Covers random variables, distributions, and inference.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "math-008",
+      "title": "The Matrix Calculus You Need For Deep Learning",
+      "author": "Terence Parr & Jeremy Howard",
+      "url": "https://explained.ai/matrix-calculus/",
+      "type": "article",
+      "tags": ["calculus", "linear-algebra", "deep-learning", "free"],
+      "description": "A concise, practical guide to the matrix calculus operations used in neural network backpropagation.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "math-010",
+      "title": "Computational Linear Algebra | fast.ai",
+      "author": "Rachel Thomas",
+      "url": "https://github.com/fastai/numerical-linear-algebra",
+      "type": "course",
+      "tags": ["linear-algebra", "free"],
+      "description": "Practical numerical linear algebra with Python, covering SVD, NMF, topic modeling, and randomized algorithms.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "math-013",
+      "title": "Statistical Rethinking",
+      "author": "Richard McElreath",
+      "url": "https://xcelab.net/rm/statistical-rethinking/",
+      "type": "book",
+      "tags": ["statistics", "video"],
+      "description": "A Bayesian statistics course using causal inference. Accompanying lectures are freely available on YouTube.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "math-009",
+      "title": "Convex Optimization | Boyd & Vandenberghe (Stanford)",
+      "author": "Stephen Boyd",
+      "url": "https://web.stanford.edu/~boyd/cvxbook/",
+      "type": "book",
+      "tags": ["optimization", "free"],
+      "description": "The definitive textbook on convex optimization, foundational for understanding ML training objectives.",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "math-014",
+      "title": "Numerical Methods for Scientists and Engineers",
+      "author": "Hamming",
+      "url": "https://store.doverpublications.com/0486652416.html",
+      "type": "book",
+      "tags": ["optimization"],
+      "description": "Classic text on numerical analysis covering root finding, integration, ODEs, and Fourier methods.",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "math-011",
+      "title": "Probability Theory: The Logic of Science",
+      "author": "E. T. Jaynes",
+      "url": "https://bayes.wustl.edu/etj/prob/book.pdf",
+      "type": "book",
+      "tags": ["probability", "free"],
+      "description": "A deep Bayesian treatment of probability theory as an extension of logic. Influential in ML research.",
+      "difficulty": "advanced"
+    }
+  ]
+}
