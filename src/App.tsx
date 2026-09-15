@@ -15,16 +15,6 @@ const PAGE_CONFIG = {
     description: 'Build the linear algebra, calculus, probability, and statistics foundations for ML.',
     sectionIds: ['mathematics'],
   },
-  'machine-learning': {
-    title: 'Machine Learning',
-    description: 'Build practical machine learning foundations, algorithms, and systems from first principles.',
-    sectionIds: ['machine-learning'],
-  },
-  'deep-learning': {
-    title: 'Deep Learning',
-    description: 'Move from neural network fundamentals into architectures, training, and modern practice.',
-    sectionIds: ['deep-learning'],
-  },
   resources: {
     title: 'Resources',
     description: 'Follow a structured path from mathematical foundations through machine learning, deep learning, and advanced topics.',
@@ -88,8 +78,6 @@ export function App() {
         <Routes>
           <Route path="/" element={<Navigate to="/resources" replace />} />
           <Route path="/mathematics" element={<ResourceRoute page="mathematics" />} />
-          <Route path="/machine-learning" element={<ResourceRoute page="machine-learning" />} />
-          <Route path="/deep-learning" element={<ResourceRoute page="deep-learning" />} />
           <Route path="/resources" element={<ResourceRoute page="resources" />} />
           <Route path="/research-papers" element={<ResourceRoute page="research-papers" />} />
           <Route path="/blogs" element={<ResourceRoute page="blogs" />} />
