@@ -19,6 +19,15 @@
     transition: background-color 250ms ease, color 250ms ease;
   }
 
+  .theme-transition,
+  .theme-transition *,
+  .theme-transition *::before,
+  .theme-transition *::after {
+    transition-property: background-color, border-color, color, fill, stroke;
+    transition-duration: 250ms;
+    transition-timing-function: ease;
+  }
+
   html:has(.dark) {
     color-scheme: dark;
   }

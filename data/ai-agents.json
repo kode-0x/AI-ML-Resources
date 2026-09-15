@@ -1,0 +1,260 @@
+{
+  "id": "ai-agents",
+  "title": "AI Agents",
+  "description": "Free resources for building and understanding AI agents — covering foundations, memory, tool use, planning, multi-agent systems, and production frameworks.",
+  "order": 7,
+  "resources": [
+    {
+      "id": "building-effective-agents",
+      "title": "Building Effective Agents - Anthropic",
+      "author": "Foundations",
+      "url": "https://www.anthropic.com/engineering/building-effective-agents",
+      "type": "article",
+      "tags": ["foundations", "patterns"],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "openai-agents-guide",
+      "title": "OpenAI Guide to Agents",
+      "author": "Foundations",
+      "url": "https://openai.com/index/introducing-openai-agents-sdk/",
+      "type": "article",
+      "tags": ["foundations", "tool-use"],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "react-paper",
+      "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+      "author": "Papers",
+      "url": "https://arxiv.org/abs/2210.03629",
+      "type": "paper",
+      "tags": ["reasoning", "planning", "foundations"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "toolformer-paper",
+      "title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
+      "author": "Papers",
+      "url": "https://arxiv.org/abs/2302.04761",
+      "type": "paper",
+      "tags": ["tool-use"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "memgpt-paper",
+      "title": "MemGPT: Memory Architecture for Long-Term Agents",
+      "author": "Papers",
+      "url": "https://arxiv.org/abs/2310.08527",
+      "type": "paper",
+      "tags": ["memory"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "llm-agents-survey",
+      "title": "A Survey on Large Language Model Based Autonomous Agents",
+      "author": "Papers",
+      "url": "https://arxiv.org/abs/2308.11432",
+      "type": "paper",
+      "tags": ["overview", "multi-agent"],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "rl-overview-agents",
+      "title": "Reinforcement Learning: An Overview - Kevin P. Murphy",
+      "author": "Papers",
+      "url": "https://arxiv.org/pdf/2412.05265",
+      "type": "paper",
+      "tags": ["rl", "planning"],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ms-ai-agents-for-beginners",
+      "title": "AI Agents for Beginners - Microsoft",
+      "author": "Courses",
+      "url": "https://github.com/microsoft/ai-agents-for-beginners",
+      "type": "course",
+      "tags": ["foundations", "multi-agent", "rag"],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "hf-agents-course",
+      "title": "AI Agents Course - HuggingFace",
+      "author": "Courses",
+      "url": "https://huggingface.co/learn/agents-course",
+      "type": "course",
+      "tags": ["foundations", "frameworks", "practical"],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "deeplearningai-agentic-ai",
+      "title": "AI Agentic Design Patterns with AutoGen - DeepLearning.AI",
+      "author": "Courses",
+      "url": "https://www.deeplearning.ai/short-courses/ai-agentic-design-patterns-with-autogen/",
+      "type": "course",
+      "tags": ["multi-agent", "patterns"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "deeplearningai-langgraph",
+      "title": "AI Agents in LangGraph - DeepLearning.AI",
+      "author": "Courses",
+      "url": "https://www.deeplearning.ai/short-courses/ai-agents-in-langgraph/",
+      "type": "course",
+      "tags": ["langgraph", "practical"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "deeplearningai-crewai",
+      "title": "Practical Multi AI Agents with CrewAI - DeepLearning.AI",
+      "author": "Courses",
+      "url": "https://www.deeplearning.ai/short-courses/practical-multi-ai-agents-and-advanced-use-cases-with-crewai/",
+      "type": "course",
+      "tags": ["multi-agent", "crewai"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "deeplearningai-functions-tools",
+      "title": "Functions, Tools and Agents with LangChain - DeepLearning.AI",
+      "author": "Courses",
+      "url": "https://www.deeplearning.ai/short-courses/functions-tools-agents-langchain/",
+      "type": "course",
+      "tags": ["tool-use", "langchain"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "deeplearningai-rag-agents",
+      "title": "Building RAG Agents with LLMs - DeepLearning.AI x NVIDIA",
+      "author": "Courses",
+      "url": "https://www.deeplearning.ai/short-courses/building-rag-agents-with-llms/",
+      "type": "course",
+      "tags": ["rag", "practical"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "anthropic-prompt-engineering-tutorial",
+      "title": "Prompt Engineering Interactive Tutorial - Anthropic",
+      "author": "Courses",
+      "url": "https://github.com/anthropics/prompt-eng-interactive-tutorial",
+      "type": "course",
+      "tags": ["prompt-engineering", "foundations"],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "prompt-engineering-guide-agents",
+      "title": "Prompt Engineering Guide - Agents",
+      "author": "Courses",
+      "url": "https://www.promptingguide.ai/research/llm-agents",
+      "type": "article",
+      "tags": ["prompt-engineering", "foundations"],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "langchain-docs",
+      "title": "LangChain Documentation",
+      "author": "Frameworks",
+      "url": "https://docs.langchain.com/",
+      "type": "docs",
+      "tags": ["langchain", "tool-use", "memory"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "langgraph-docs",
+      "title": "LangGraph Documentation",
+      "author": "Frameworks",
+      "url": "https://langchain-ai.github.io/langgraph/",
+      "type": "docs",
+      "tags": ["langgraph", "multi-agent"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "llamaindex-docs",
+      "title": "LlamaIndex Documentation",
+      "author": "Frameworks",
+      "url": "https://docs.llamaindex.ai/",
+      "type": "docs",
+      "tags": ["rag", "memory"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "spinning-up-rl",
+      "title": "Spinning Up - OpenAI",
+      "author": "Frameworks",
+      "url": "https://github.com/openai/spinningup",
+      "type": "github",
+      "tags": ["rl", "practical"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "autogen",
+      "title": "AutoGen - Microsoft Multi-Agent Framework",
+      "author": "Frameworks",
+      "url": "https://github.com/microsoft/autogen",
+      "type": "github",
+      "tags": ["multi-agent", "frameworks"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "crewai",
+      "title": "CrewAI - Multi-Agent Orchestration",
+      "author": "Frameworks",
+      "url": "https://github.com/joaomdmoura/crewAI",
+      "type": "github",
+      "tags": ["multi-agent", "crewai"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "memgpt-repo",
+      "title": "MemGPT - Long-Term Memory for Agents",
+      "author": "Frameworks",
+      "url": "https://github.com/cpacker/MemGPT",
+      "type": "github",
+      "tags": ["memory"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "openai-cookbook-agents",
+      "title": "OpenAI Cookbook - Agents, Tool Use, Memory",
+      "author": "Frameworks",
+      "url": "https://github.com/openai/openai-cookbook",
+      "type": "github",
+      "tags": ["tool-use", "memory", "practical"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "metagpt",
+      "title": "MetaGPT - Structured Software Agents with Roles",
+      "author": "Frameworks",
+      "url": "https://github.com/geekan/MetaGPT",
+      "type": "github",
+      "tags": ["multi-agent", "practical"],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "babyagi",
+      "title": "BabyAGI - Task-Oriented Autonomous Agent",
+      "author": "Projects",
+      "url": "https://github.com/yoheinakajima/babyagi",
+      "type": "github",
+      "tags": ["planning", "foundations"],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "autogpt",
+      "title": "AutoGPT - Autonomous Goal-Seeking Agent",
+      "author": "Projects",
+      "url": "https://github.com/Torantulino/Auto-GPT",
+      "type": "github",
+      "tags": ["autonomy", "practical"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "chatdev",
+      "title": "ChatDev - Multi-Agent Software Company",
+      "author": "Projects",
+      "url": "https://github.com/OpenBMB/ChatDev",
+      "type": "github",
+      "tags": ["multi-agent", "practical"],
+      "difficulty": "advanced"
+    }
+  ]
+}

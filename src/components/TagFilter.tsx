@@ -1,11 +1,11 @@
 import { ChevronDown, ChevronUp, Filter, X } from 'lucide-react';
 import { useState } from 'react';
 import { AnimatePresence, motion, useReducedMotion } from 'framer-motion';
-import { ALL_TAGS, ALL_TYPES } from '../data';
+import { ALL_RESOURCES, ALL_TYPES, filterResources } from '../data';
 import { useFilterStore } from '../store/useFilterStore';
 import { TagBadge } from './TagBadge';
 import { fadeIn, spring } from '../lib/animations';
-import type { Difficulty, ResourceType } from '../types';
+import type { Difficulty, Resource, ResourceType } from '../types';
 
 const DIFFICULTIES: Difficulty[] = ['beginner', 'intermediate', 'advanced'];
 
@@ -17,6 +17,13 @@ const TYPE_LABELS: Record<ResourceType, string> = {
   documentation: 'docs',
   paper: 'paper',
   tool: 'tool',
+  blog: 'blog',
+  community: 'community',
+  docs: 'docs',
+  github: 'github',
+  interactive: 'interactive',
+  tutorial: 'tutorial',
+  slides: 'slides',
 };
 
 const DIFF_LABELS: Record<Difficulty, string> = {
@@ -25,11 +32,16 @@ const DIFF_LABELS: Record<Difficulty, string> = {
   advanced: 'advanced',
 };
 
-export function TagFilter() {
+interface TagFilterProps {
+  resources?: Resource[];
+}
+
+export function TagFilter({ resources = ALL_RESOURCES }: TagFilterProps) {
   const {
     activeTags,
     activeTypes,
     activeDifficulties,
+    searchQuery,
     toggleTag,
     toggleType,
     toggleDifficulty,
@@ -40,7 +52,14 @@ export function TagFilter() {
   const [tagsExpanded, setTagsExpanded] = useState(false);
   const reduced = useReducedMotion();
   const TAGS_PREVIEW = 20;
-  const visibleTags = tagsExpanded ? ALL_TAGS : ALL_TAGS.slice(0, TAGS_PREVIEW);
+  const matchingResources = filterResources(resources, {
+    activeTags: new Set(),
+    activeTypes,
+    activeDifficulties,
+    searchQuery,
+  });
+  const availableTags = [...new Set(matchingResources.flatMap((resource) => resource.tags))].sort();
+  const visibleTags = tagsExpanded ? availableTags : availableTags.slice(0, TAGS_PREVIEW);
 
   const isActive = hasActiveFilters();
 
@@ -117,7 +136,7 @@ export function TagFilter() {
             />
           ))}
         </motion.div>
-        {ALL_TAGS.length > TAGS_PREVIEW && (
+        {availableTags.length > TAGS_PREVIEW && (
           <motion.button
             onClick={() => setTagsExpanded((v) => !v)}
             className="mt-2 flex items-center gap-1 text-[11px] font-mono text-neutral-400 dark:text-neutral-500 hover:text-neutral-700 dark:hover:text-neutral-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-neutral-400 dark:focus-visible:ring-neutral-600 rounded-sm transition-colors"
@@ -128,7 +147,7 @@ export function TagFilter() {
             {tagsExpanded ? (
               <><ChevronUp size={12} strokeWidth={2} /> show less</>
             ) : (
-              <><ChevronDown size={12} strokeWidth={2} /> +{ALL_TAGS.length - TAGS_PREVIEW} more</>
+              <><ChevronDown size={12} strokeWidth={2} /> +{availableTags.length - TAGS_PREVIEW} more</>
             )}
           </motion.button>
         )}

@@ -1,0 +1,71 @@
+{
+  "id": "reinforcement-learning",
+  "title": "Reinforcement Learning",
+  "description": "Free reinforcement learning resources covering RL fundamentals, algorithms, and deep RL.",
+  "order": 6,
+  "resources": [
+    {
+      "id": "reinforcement-learning-sutton",
+      "title": "Reinforcement Learning: An Introduction - Sutton & Barto",
+      "author": "Books",
+      "url": "https://web.stanford.edu/class/psych209/Readings/SuttonBartoIPRLBook2ndEd.pdf",
+      "type": "book",
+      "tags": ["foundations"],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "algorithms-for-rl",
+      "title": "Algorithms for Reinforcement Learning",
+      "author": "Books",
+      "url": "https://sites.ualberta.ca/~szepesva/papers/RLAlgsInMDPs-lecture.pdf",
+      "type": "book",
+      "tags": ["algorithms"],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "reinforcement-learning-overview-kpm",
+      "title": "Reinforcement Learning: An Overview - Kevin P. Murphy",
+      "author": "Articles",
+      "url": "https://arxiv.org/pdf/2412.05265",
+      "type": "article",
+      "tags": ["overview"],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "huggingface-deep-rl-course",
+      "title": "Deep RL Course - HuggingFace",
+      "author": "Courses",
+      "url": "https://huggingface.co/learn/deep-rl-course/unit0/introduction",
+      "type": "course",
+      "tags": ["foundations"],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "deepmind-rl-course",
+      "title": "Introduction to Reinforcement Learning - DeepMind x UCL 2015",
+      "author": "Courses",
+      "url": "https://www.youtube.com/playlist?list=PLqYmG7hTraZDM-OYHWgPebj2MfCFzFObQ",
+      "type": "course",
+      "tags": ["foundations"],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "cs294-rl",
+      "title": "Deep Reinforcement Learning - UC Berkeley CS 294, Spring 2017",
+      "author": "Courses",
+      "url": "https://rll.berkeley.edu/deeprlcoursesp17/",
+      "type": "course",
+      "tags": ["deep-rl"],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "spinning-up-rl",
+      "title": "Spinning Up - OpenAI",
+      "author": "Projects",
+      "url": "https://github.com/openai/spinningup",
+      "type": "github",
+      "tags": ["practical", "algorithms"],
+      "difficulty": "intermediate"
+    }
+  ]
+}

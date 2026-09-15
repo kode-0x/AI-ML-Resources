@@ -8,6 +8,13 @@ const TYPE_LABELS: Record<ResourceType, string> = {
   documentation: 'docs',
   paper: 'paper',
   tool: 'tool',
+  blog: 'blog',
+  community: 'community',
+  docs: 'docs',
+  github: 'github',
+  interactive: 'interactive',
+  tutorial: 'tutorial',
+  slides: 'slides',
 };
 
 interface ResourceTypeBadgeProps {

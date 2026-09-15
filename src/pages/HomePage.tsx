@@ -2,14 +2,22 @@ import { ChevronsDownUp, ChevronsUpDown } from 'lucide-react';
 import { motion, useReducedMotion } from 'framer-motion';
 import { SearchBar } from '../components/SearchBar';
 import { TagFilter } from '../components/TagFilter';
+import { MobileFilterDrawer } from '../components/MobileFilterDrawer';
 import { ResourcesSection } from '../sections/ResourcesSection';
 import { useFilterStore } from '../store/useFilterStore';
-import { ALL_SECTIONS, TOTAL_COUNT } from '../data';
 import { fadeUp, spring, staggerContainer } from '../lib/animations';
+import type { Section } from '../types';
 
-export function HomePage() {
+interface HomePageProps {
+  title: string;
+  description: string;
+  sections: Section[];
+  collapsibleSections?: boolean;
+}
+
+export function HomePage({ title, description, sections, collapsibleSections = true }: HomePageProps) {
   const { openAllSections, closeAllSections, openSections } = useFilterStore();
-  const allOpen = openSections.size === ALL_SECTIONS.length;
+  const allOpen = sections.length > 0 && sections.every((section) => openSections.has(section.id));
   const reduced = useReducedMotion();
 
   return (
@@ -25,7 +33,7 @@ export function HomePage() {
         >
           <div className="sticky top-20 space-y-6">
             <SearchBar />
-            <TagFilter />
+            <TagFilter resources={sections.flatMap((section) => section.resources)} />
           </div>
         </motion.aside>
 
@@ -39,10 +47,10 @@ export function HomePage() {
           >
             <div>
               <h1 className="text-xl font-semibold tracking-tight text-neutral-900 dark:text-neutral-100">
-                AI / ML Resources
+                {title}
               </h1>
-              <p className="text-xs text-neutral-400 dark:text-neutral-500 mt-1 font-mono">
-                {TOTAL_COUNT} curated resources
+              <p className="text-sm text-neutral-500 dark:text-neutral-400 mt-1 max-w-2xl">
+                {description}
               </p>
             </div>
 
@@ -79,9 +87,9 @@ export function HomePage() {
             initial="hidden"
             animate="visible"
           >
-            {ALL_SECTIONS.map((section) => (
+            {sections.map((section) => (
               <div className="px-4 sm:px-5" key={section.id}>
-                <ResourcesSection section={section} />
+                <ResourcesSection section={section} collapsible={collapsibleSections} />
               </div>
             ))}
           </motion.div>
@@ -97,6 +105,7 @@ export function HomePage() {
           </motion.p>
         </main>
       </div>
+      <MobileFilterDrawer resources={sections.flatMap((section) => section.resources)} />
     </div>
   );
 }

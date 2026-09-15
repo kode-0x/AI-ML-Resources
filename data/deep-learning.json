@@ -1,0 +1,530 @@
+{
+  "id": "deep-learning",
+  "title": "Deep Learning",
+  "description": "Free deep learning resources covering neural networks, CNNs, RNNs, transformers, and LLMs.",
+  "order": 4,
+  "resources": [
+    {
+      "id": "deeplearningbook-2016",
+      "title": "Deep Learning - Ian Goodfellow",
+      "author": "Books",
+      "url": "https://www.deeplearningbook.org/",
+      "type": "book",
+      "tags": ["foundations"],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "udlbook",
+      "title": "Understanding Deep Learning",
+      "author": "Books",
+      "url": "https://udlbook.github.io/udlbook/",
+      "type": "book",
+      "tags": ["foundations"],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "d2l",
+      "title": "Dive into Deep Learning",
+      "author": "Books",
+      "url": "https://d2l.ai/",
+      "type": "book",
+      "tags": ["foundations", "practical"],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "lbdl",
+      "title": "The Little Book of Deep Learning",
+      "author": "Books",
+      "url": "https://fleuret.org/public/lbdl.pdf",
+      "type": "book",
+      "tags": ["foundations"],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "grokking-deep-learning",
+      "title": "Grokking Deep Learning",
+      "author": "Books",
+      "url": "https://cdn.ttgtmedia.com/rms/pdf/grokking_deep_learning.pdf",
+      "type": "book",
+      "tags": ["foundations"],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "fastai-deep-learning-book",
+      "title": "Practical Deep Learning for Coders - fastai",
+      "author": "Books",
+      "url": "https://course.fast.ai/Resources/book.html",
+      "type": "book",
+      "tags": ["practical"],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "itprnn",
+      "title": "Information Theory, Inference, and Learning Algorithms - David MacKay",
+      "author": "Books",
+      "url": "https://www.inference.org.uk/itprnn/book.pdf",
+      "type": "book",
+      "tags": ["theory"],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "deeplearningai",
+      "title": "DeepLearning.AI",
+      "author": "Courses",
+      "url": "https://deeplearning.ai/",
+      "type": "course",
+      "tags": ["foundations"],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "nyudl",
+      "title": "NYU Deep Learning - Yann LeCun",
+      "author": "Courses",
+      "url": "https://atcold.github.io/NYU-DLSP21/",
+      "type": "course",
+      "tags": ["foundations"],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mathematics-of-neural-networks-and-deep-learning",
+      "title": "The Complete Mathematics of Neural Networks and Deep Learning",
+      "author": "Courses",
+      "url": "https://www.youtube.com/watch?v=Ixl3nykKG9M",
+      "type": "course",
+      "tags": ["foundations", "math"],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "intro-to-deep-learning-sr",
+      "title": "Intro to Deep Learning - Sebastian Raschka",
+      "author": "Courses",
+      "url": "https://www.youtube.com/playlist?list=PLTKMiZHVd_2KJtIXOW0zFhFfBaJJilH51",
+      "type": "course",
+      "tags": ["foundations"],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "fastai-deep-learning-course",
+      "title": "Practical Deep Learning for Coders - fastai",
+      "author": "Courses",
+      "url": "https://course.fast.ai/",
+      "type": "course",
+      "tags": ["practical"],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "fsdl",
+      "title": "Full Stack Deep Learning - 2022",
+      "author": "Courses",
+      "url": "https://fullstackdeeplearning.com/course/2022/",
+      "type": "course",
+      "tags": ["practical", "deployment"],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "cs182-deep-learning",
+      "title": "UC Berkeley CS 182: Deep Learning",
+      "author": "Courses",
+      "url": "https://www.youtube.com/playlist?list=PL_iWQOsE6TfVmKkQHucjPAoRtIJYt8a5A",
+      "type": "course",
+      "tags": ["foundations"],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "mit-dl",
+      "title": "MIT - Introduction to Deep Learning",
+      "author": "Courses",
+      "url": "https://introtodeeplearning.com/",
+      "type": "course",
+      "tags": ["foundations"],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "stanford-cs231n",
+      "title": "CS231n - Deep Learning for Computer Vision",
+      "author": "Courses",
+      "url": "https://cs231n.stanford.edu/",
+      "type": "course",
+      "tags": ["cnn"],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "cs224d",
+      "title": "CS224d: Deep Learning for Natural Language Processing",
+      "author": "Courses",
+      "url": "https://www.youtube.com/playlist?list=PL4PDl8a0S5tvphRVF45G8B7z0pDO6MT7C",
+      "type": "course",
+      "tags": ["nlp", "rnn"],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "david-mackay-info-theory-pattern-recognition-and-neural-networks",
+      "title": "Information Theory, Pattern Recognition, and Neural Networks - David MacKay",
+      "author": "Courses",
+      "url": "https://www.youtube.com/playlist?list=PLruBu5BI5n4aFpG32iMbdWoRVAA-Vcso6",
+      "type": "course",
+      "tags": ["theory"],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "cnn-mathematical-intuition",
+      "title": "CNN from Scratch with Mathematical Intuition",
+      "author": "CNN",
+      "url": "https://lunar-joke-35b.notion.site/CNN-from-Scratch-with-pure-Mathematical-Intuition-a201ef0ca1314058a1707a3ae260981e",
+      "type": "article",
+      "tags": ["cnn", "math"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "cnn-explainer",
+      "title": "CNN Explainer",
+      "author": "CNN",
+      "url": "https://poloclub.github.io/cnn-explainer/",
+      "type": "interactive",
+      "tags": ["cnn", "visualization"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "convnetjs",
+      "title": "ConvNetJS - Deep Learning in your browser",
+      "author": "CNN",
+      "url": "https://cs.stanford.edu/people/karpathy/convnetjs/index.html",
+      "type": "interactive",
+      "tags": ["cnn"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "cnn-visualization",
+      "title": "Convolutional Neural Networks Explained (CNN Visualized)",
+      "author": "CNN",
+      "url": "https://www.youtube.com/watch?v=pj9-rr1wDhM",
+      "type": "video",
+      "tags": ["cnn", "visualization"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "image-kernels",
+      "title": "Image Kernels",
+      "author": "CNN",
+      "url": "https://setosa.io/ev/image-kernels/",
+      "type": "interactive",
+      "tags": ["cnn", "visualization"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "convolutions-in-image-processing",
+      "title": "Convolutions in Image Processing",
+      "author": "CNN",
+      "url": "https://www.youtube.com/watch?v=8rrHTtUzyZA",
+      "type": "video",
+      "tags": ["cnn"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "rnn-intro",
+      "title": "Recurrent Neural Networks Tutorial, Part 1 - Introduction to RNNs",
+      "author": "RNN",
+      "url": "https://dennybritz.com/posts/wildml/recurrent-neural-networks-tutorial-part-1/",
+      "type": "article",
+      "tags": ["rnn"],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "rnn-made-with-ml",
+      "title": "Recurrent Neural Networks (RNN) - Made With ML",
+      "author": "RNN",
+      "url": "https://madewithml.com/courses/foundations/recurrent-neural-networks/",
+      "type": "article",
+      "tags": ["rnn"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "rnn-and-lstm",
+      "title": "RNNs and LSTMs - Stanford",
+      "author": "RNN",
+      "url": "https://web.stanford.edu/~jurafsky/slp3/8.pdf",
+      "type": "article",
+      "tags": ["rnn", "lstm"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "nlp-scratch",
+      "title": "NLP from Scratch - PyTorch",
+      "author": "RNN",
+      "url": "https://pytorch.org/tutorials/intermediate/nlp_from_scratch_index.html",
+      "type": "tutorial",
+      "tags": ["rnn", "pytorch"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "smol-course",
+      "title": "a smol course - HuggingFace",
+      "author": "LLM",
+      "url": "https://github.com/huggingface/smol-course",
+      "type": "course",
+      "tags": ["llm", "transformers"],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "nlp-course",
+      "title": "NLP Course - HuggingFace",
+      "author": "LLM",
+      "url": "https://huggingface.co/learn/nlp-course/chapter1/1",
+      "type": "course",
+      "tags": ["nlp", "llm"],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "llm-from-scratch",
+      "title": "Build a Large Language Model (From Scratch) - Sebastian Raschka",
+      "author": "LLM",
+      "url": "https://livebook.manning.com/book/build-a-large-language-model-from-scratch/title/",
+      "type": "book",
+      "tags": ["llm", "transformers"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "llm-from-scratch-2",
+      "title": "Create a Large Language Model from Scratch with Python",
+      "author": "LLM",
+      "url": "https://www.youtube.com/watch?v=UU1WVnMk4E8&t=4303s",
+      "type": "video",
+      "tags": ["llm", "transformers"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "attention-is-all-you-need",
+      "title": "Attention Is All You Need - Implementation",
+      "author": "LLM",
+      "url": "https://github.com/LvanderGoten/AttentionIsAllYouNeed?tab=readme-ov-file",
+      "type": "github",
+      "tags": ["transformers", "attention"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "implement-vit",
+      "title": "Implement and Train ViT From Scratch for Image Recognition",
+      "author": "LLM",
+      "url": "https://www.youtube.com/watch?v=Vonyoz6Yt9c",
+      "type": "video",
+      "tags": ["transformers", "vision"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "how-i-studied-llms-in-two-weeks",
+      "title": "How I Studied LLMs in Two Weeks: A Comprehensive Roadmap",
+      "author": "LLM",
+      "url": "https://towardsdatascience.com/how-i-studied-llms-in-two-weeks-a-comprehensive-roadmap-e8ac19667a31",
+      "type": "article",
+      "tags": ["llm", "roadmap"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "how-large-language-models-work",
+      "title": "How Large Language Models Work - From zero to ChatGPT",
+      "author": "LLM",
+      "url": "https://medium.com/data-science-at-microsoft/how-large-language-models-work-91c362f5b78f",
+      "type": "article",
+      "tags": ["llm"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "building-effective-agents",
+      "title": "Building Effective Agents - Anthropic",
+      "author": "LLM",
+      "url": "https://www.anthropic.com/research/building-effective-agents",
+      "type": "article",
+      "tags": ["llm", "agents"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "llm-visualization",
+      "title": "LLM Visualization",
+      "author": "LLM",
+      "url": "https://bbycroft.net/llm",
+      "type": "interactive",
+      "tags": ["llm", "visualization"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "zero-to-hero",
+      "title": "Neural Networks: Zero to Hero",
+      "author": "LLM",
+      "url": "https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ",
+      "type": "course",
+      "tags": ["llm", "foundations"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "transformers-from-scratch",
+      "title": "Intro to Transformers - giffmana",
+      "author": "LLM",
+      "url": "https://docs.google.com/presentation/d/1ZXFIhYczos679r70Yu8vV9uO6B1J0ztzeDxbnBxD1S0/edit#slide=id.ge2832e38b9_0_21",
+      "type": "slides",
+      "tags": ["transformers"],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "transformers-from-scratch-2",
+      "title": "Transformers - Lucas Beyer",
+      "author": "LLM",
+      "url": "https://www.youtube.com/watch?v=bMXqnLiVgLk",
+      "type": "video",
+      "tags": ["transformers"],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "transformer-explainer",
+      "title": "Transformer Explainer - Polo Club",
+      "author": "LLM",
+      "url": "https://poloclub.github.io/transformer-explainer/",
+      "type": "interactive",
+      "tags": ["transformers", "visualization"],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "illustrated-gpt2",
+      "title": "The Illustrated GPT-2",
+      "author": "LLM",
+      "url": "https://jalammar.github.io/illustrated-gpt2/",
+      "type": "article",
+      "tags": ["llm", "visualization"],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "linear-relationships-in-the-transformers-positional-encoding",
+      "title": "Linear Relationships in the Transformer's Positional Encoding",
+      "author": "LLM",
+      "url": "https://blog.timodenk.com/linear-relationships-in-the-transformers-positional-encoding/",
+      "type": "article",
+      "tags": ["transformers", "math"],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "zero-to-mastery-pytorch",
+      "title": "Learn PyTorch for Deep Learning - Daniel Bourke",
+      "author": "PyTorch",
+      "url": "https://www.learnpytorch.io/",
+      "type": "course",
+      "tags": ["pytorch"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "zero-to-mastery-pytorch-video",
+      "title": "Learn PyTorch for Deep Learning in a Day - Daniel Bourke",
+      "author": "PyTorch",
+      "url": "https://www.youtube.com/watch?v=Z_ikDlimN6A",
+      "type": "video",
+      "tags": ["pytorch"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "pytorch-internals",
+      "title": "PyTorch Internals - ezyang's blog",
+      "author": "PyTorch",
+      "url": "http://blog.ezyang.com/2019/05/pytorch-internals/",
+      "type": "article",
+      "tags": ["pytorch"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "minitorch",
+      "title": "MiniTorch",
+      "author": "PyTorch",
+      "url": "https://minitorch.github.io/",
+      "type": "course",
+      "tags": ["pytorch", "autograd"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "inside-the-matrix",
+      "title": "Inside the Matrix: Visualizing Matrix Multiplication and Attention",
+      "author": "PyTorch",
+      "url": "https://pytorch.org/blog/inside-the-matrix/",
+      "type": "article",
+      "tags": ["pytorch", "visualization"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "cs231n-2016",
+      "title": "CS231n Winter 2016",
+      "author": "Karpathy",
+      "url": "https://www.youtube.com/playlist?list=PLkt2uSq6rBVctENoVBg1TpCC7OQi31AlC",
+      "type": "course",
+      "tags": ["cnn"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "cs231n-2016-site",
+      "title": "CS231n Winter 2016 - Course Site",
+      "author": "Karpathy",
+      "url": "https://cs231n.stanford.edu/2016/",
+      "type": "article",
+      "tags": ["cnn"],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "karpathy-github",
+      "title": "Karpathy GitHub",
+      "author": "Karpathy",
+      "url": "https://github.com/karpathy",
+      "type": "github",
+      "tags": ["projects"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "3b1b-nn",
+      "title": "Neural Networks - 3Blue1Brown",
+      "author": "3Blue1Brown",
+      "url": "https://www.3blue1brown.com/topics/neural-networks",
+      "type": "article",
+      "tags": ["foundations", "visualization"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "3b1b-nn-yt",
+      "title": "Neural Networks - 3Blue1Brown",
+      "author": "3Blue1Brown",
+      "url": "https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi",
+      "type": "video",
+      "tags": ["foundations", "visualization"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "neilsen-dl",
+      "title": "Neural Networks and Deep Learning",
+      "author": "3Blue1Brown",
+      "url": "http://neuralnetworksanddeeplearning.com/",
+      "type": "book",
+      "tags": ["foundations"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "colah-dl",
+      "title": "Calculus on Computational Graphs: Backpropagation",
+      "author": "3Blue1Brown",
+      "url": "https://colah.github.io/posts/2015-08-Backprop/",
+      "type": "article",
+      "tags": ["backprop", "math"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "neural-networks-demystified",
+      "title": "Neural Networks Demystified",
+      "author": "3Blue1Brown",
+      "url": "https://www.youtube.com/playlist?list=PLiaHhY2iBX9hdHaRr6b7XevZtgZRa1PoU",
+      "type": "video",
+      "tags": ["foundations"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "learning-to-see",
+      "title": "Learning To See",
+      "author": "3Blue1Brown",
+      "url": "https://www.youtube.com/playlist?list=PLiaHhY2iBX9ihLasvE8BKnS2Xg8AhY6iV",
+      "type": "video",
+      "tags": ["cnn", "visualization"],
+      "difficulty": "intermediate"
+    }
+  ]
+}

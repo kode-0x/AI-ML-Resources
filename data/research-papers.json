@@ -1,0 +1,287 @@
+{
+  "id": "essential-papers",
+  "title": "Essential Papers In Machine Learning And AI",
+  "description": "Free foundational and seminal research papers covering neural networks, transformers, NLP, computer vision, and optimization.",
+  "order": 1,
+  "resources": [
+    {
+      "id": "mcculloch-pitts-43",
+      "title": "A Logical Calculus of the Ideas Immanent in Nervous Activity",
+      "author": "McCulloch & Pitts (1943)",
+      "url": "https://www.cs.cmu.edu/~./epxing/Class/10715/reading/McCulloch.and.Pitts.pdf",
+      "type": "paper",
+      "tags": ["foundations", "neural-networks"],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "shannon-38",
+      "title": "A Symbolic Analysis of Relay and Switching Circuits",
+      "author": "Shannon (1938)",
+      "url": "https://drive.google.com/file/d/1m3JwmCZqWg1IP607I5gbpsJDQBIDwcz9/view",
+      "type": "paper",
+      "tags": ["foundations", "logic"],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "rosenblatt-1957",
+      "title": "The Perceptron: A Probabilistic Model for Information Storage and Organization in the Brain",
+      "author": "Rosenblatt (1957)",
+      "url": "https://bpb-us-e2.wpmucdn.com/websites.umass.edu/dist/a/27637/files/2016/03/rosenblatt-1957.pdf",
+      "type": "paper",
+      "tags": ["foundations", "neural-networks"],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "shannon-1950",
+      "title": "Programming a Computer for Playing Chess",
+      "author": "Shannon (1950)",
+      "url": "https://archive.computerhistory.org/projects/chess/related_materials/text/2-0%20and%202-1.Programming_a_computer_for_playing_chess.shannon/2-0%20and%202-1.Programming_a_computer_for_playing_chess.shannon.062303002.pdf",
+      "type": "paper",
+      "tags": ["ai", "game-theory"],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "turing-1948",
+      "title": "Intelligent Machinery",
+      "author": "Turing (1948)",
+      "url": "https://ia801703.us.archive.org/23/items/turing1948/turing1948_text.pdf",
+      "type": "paper",
+      "tags": ["foundations", "ai"],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "shannon-1948",
+      "title": "A Mathematical Theory of Communication",
+      "author": "Shannon (1948)",
+      "url": "https://people.math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf",
+      "type": "paper",
+      "tags": ["information-theory", "foundations"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "rumelhart-1986",
+      "title": "Learning Representations by Back-Propagating Errors",
+      "author": "Rumelhart, Hinton & Williams (1986)",
+      "url": "https://github.com/georgezoto/Convolutional-Neural-Networks/blob/master/Papers/1986%20Backpro%20Learning%20representations%20by%20back-propagating%20errors%20-%20Rumelhart,%20Hinton,%20Williams.pdf",
+      "type": "paper",
+      "tags": ["backpropagation", "foundations"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "lstm-1997",
+      "title": "Long Short-Term Memory",
+      "author": "Hochreiter & Schmidhuber (1997)",
+      "url": "https://drive.google.com/file/d/1u4RwS5gmEB1Jk3hWcq7yU_5OxxfeqfMJ/view?usp=sharing",
+      "type": "paper",
+      "tags": ["rnn", "sequence-models"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "lecun-98",
+      "title": "Gradient-Based Learning Applied to Document Recognition",
+      "author": "LeCun et al. (1998)",
+      "url": "https://yann.lecun.com/exdb/publis/pdf/lecun-98.pdf",
+      "type": "paper",
+      "tags": ["cnn", "computer-vision"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "bengio2003neural",
+      "title": "A Neural Probabilistic Language Model",
+      "author": "Bengio et al. (2003)",
+      "url": "https://www.jmlr.org/papers/volume3/bengio03a/bengio03a.pdf",
+      "type": "paper",
+      "tags": ["nlp", "language-models"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "krizhevsky-alexnet",
+      "title": "ImageNet Classification with Deep Convolutional Neural Networks",
+      "author": "Krizhevsky, Sutskever & Hinton (2012)",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf",
+      "type": "paper",
+      "tags": ["cnn", "computer-vision", "deep-learning"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "hinton-keeping-neural-networks-simple",
+      "title": "Keeping Neural Networks Simple by Minimizing the Description Length of the Weights",
+      "author": "Hinton (1993)",
+      "url": "https://www.cs.toronto.edu/~hinton/absps/colt93.pdf",
+      "type": "paper",
+      "tags": ["regularization", "complexity"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "graves-2013",
+      "title": "Generating Sequences With Recurrent Neural Networks",
+      "author": "Graves (2013)",
+      "url": "https://arxiv.org/pdf/1308.0850",
+      "type": "paper",
+      "tags": ["rnn", "sequence-models"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "sutskever-2014",
+      "title": "Sequence to Sequence Learning with Neural Networks",
+      "author": "Sutskever, Vanhoucke & Le (2014)",
+      "url": "https://arxiv.org/pdf/1409.3215",
+      "type": "paper",
+      "tags": ["seq2seq", "nlp"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "bahdanau-machine-translation",
+      "title": "Neural Machine Translation by Jointly Learning to Align and Translate",
+      "author": "Bahdanau, Cho & Bengio (2014)",
+      "url": "https://arxiv.org/pdf/1409.0473",
+      "type": "paper",
+      "tags": ["attention", "nlp"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "he-residual-learning",
+      "title": "Deep Residual Learning for Image Recognition",
+      "author": "He et al. (2015)",
+      "url": "https://arxiv.org/pdf/1512.03385",
+      "type": "paper",
+      "tags": ["cnn", "computer-vision", "skip-connections"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "vaswani-attention",
+      "title": "Attention Is All You Need",
+      "author": "Vaswani et al. (2017)",
+      "url": "https://arxiv.org/pdf/1706.03762",
+      "type": "paper",
+      "tags": ["transformers", "attention", "nlp"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "devlin-2018",
+      "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+      "author": "Devlin et al. (2018)",
+      "url": "https://arxiv.org/pdf/1810.04805",
+      "type": "paper",
+      "tags": ["transformers", "nlp", "language-models"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "karpathy-rnn-effectiveness",
+      "title": "The Unreasonable Effectiveness of Recurrent Neural Networks",
+      "author": "Karpathy (2015)",
+      "url": "https://karpathy.github.io/2015/05/21/rnn-effectiveness/",
+      "type": "paper",
+      "tags": ["rnn", "analysis"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "colah-lstm",
+      "title": "Understanding LSTM Networks",
+      "author": "Olah (2015)",
+      "url": "https://colah.github.io/posts/2015-08-Understanding-LSTMs/",
+      "type": "paper",
+      "tags": ["rnn", "lstm", "visualization"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ruder-2016",
+      "title": "An Overview of Gradient Descent Optimization Algorithms",
+      "author": "Ruder (2016)",
+      "url": "https://arxiv.org/pdf/1609.04747",
+      "type": "paper",
+      "tags": ["optimization", "training"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "santoro-neural-turing-machines",
+      "title": "Neural Turing Machines",
+      "author": "Graves, Wayne & Danihelka (2014)",
+      "url": "https://arxiv.org/pdf/1410.5401",
+      "type": "paper",
+      "tags": ["memory", "architecture"],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "santoro-simple-nn-module",
+      "title": "A Simple Neural Network Module for Relational Reasoning",
+      "author": "Santoro et al. (2017)",
+      "url": "https://arxiv.org/pdf/1706.01427",
+      "type": "paper",
+      "tags": ["reasoning", "relational"],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "breiman2001random",
+      "title": "Random Forests",
+      "author": "Breiman (2001)",
+      "url": "https://link.springer.com/content/pdf/10.1023/a:1010933404324.pdf",
+      "type": "paper",
+      "tags": ["ensemble", "trees"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "breiman-two-cultures",
+      "title": "Statistical Modeling: The Two Cultures",
+      "author": "Breiman (2001)",
+      "url": "https://www2.math.uu.se/~thulin/mm/breiman.pdf",
+      "type": "paper",
+      "tags": ["statistics", "philosophy"],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "santoro-scaling-laws",
+      "title": "Scaling Laws for Neural Language Models",
+      "author": "Kaplan et al. (2020)",
+      "url": "https://arxiv.org/pdf/2001.08361",
+      "type": "paper",
+      "tags": ["scaling", "language-models"],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "he-identity-mappings",
+      "title": "Identity Mappings in Deep Residual Networks",
+      "author": "He et al. (2016)",
+      "url": "https://arxiv.org/pdf/1603.05027",
+      "type": "paper",
+      "tags": ["cnn", "skip-connections"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "weston-2014",
+      "title": "Memory Networks",
+      "author": "Weston, Chopra & Bordes (2014)",
+      "url": "https://arxiv.org/pdf/1410.3916",
+      "type": "paper",
+      "tags": ["memory", "qa"],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "luong-2015",
+      "title": "Effective Approaches to Attention-Based Neural Machine Translation",
+      "author": "Luong, Pham & Manning (2015)",
+      "url": "https://arxiv.org/pdf/1508.04025",
+      "type": "paper",
+      "tags": ["attention", "seq2seq"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "llama3-herd",
+      "title": "The Llama 3 Herd of Models",
+      "author": "Meta AI (2024)",
+      "url": "https://arxiv.org/pdf/2407.21783",
+      "type": "paper",
+      "tags": ["language-models", "llm", "recent"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "harvard-annotated-transformer",
+      "title": "The Annotated Transformer",
+      "author": "Rush (2018)",
+      "url": "https://nlp.seas.harvard.edu/annotated-transformer/",
+      "type": "article",
+      "tags": ["transformers", "tutorial"],
+      "difficulty": "advanced"
+    }
+  ]
+}

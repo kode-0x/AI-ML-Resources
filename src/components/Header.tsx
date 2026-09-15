@@ -1,7 +1,8 @@
 import { Github, Moon, Sun } from 'lucide-react';
 import { AnimatePresence, motion, useReducedMotion } from 'framer-motion';
-import { TOTAL_COUNT } from '../data';
+import { NavLink } from 'react-router-dom';
 import { useThemeStore } from '../store/useThemeStore';
+import { TOTAL_COUNT } from '../data';
 import { iconSwap, spring } from '../lib/animations';
 
 export function Header() {
@@ -11,7 +12,7 @@ export function Header() {
 
   return (
     <header className="border-b border-neutral-200/80 dark:border-neutral-800/80 bg-white/95 dark:bg-neutral-950/95 backdrop-blur-sm sticky top-0 z-30 transition-colors duration-300">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 h-12 flex items-center justify-between gap-4">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 min-h-12 py-2 sm:py-0 flex flex-wrap items-center justify-between gap-x-4 gap-y-2">
 
         <motion.div
           className="flex items-center gap-3"
@@ -22,10 +23,37 @@ export function Header() {
           <span className="font-mono text-sm font-medium tracking-tight text-neutral-900 dark:text-neutral-100">
             AI/ML Resources
           </span>
-          <span className="hidden sm:inline text-[11px] font-mono text-neutral-400 dark:text-neutral-500 border border-neutral-200 dark:border-neutral-700 rounded-sm px-1.5 py-0.5">
-            {TOTAL_COUNT} Resources
+          <span className="rounded-sm border border-neutral-200 dark:border-neutral-700 px-1.5 py-0.5 text-[10px] font-mono text-neutral-400 dark:text-neutral-500">
+            {TOTAL_COUNT} resources
           </span>
         </motion.div>
+
+        <nav
+          className="order-3 w-full sm:order-none sm:w-auto sm:ml-auto overflow-x-auto"
+          aria-label="Primary navigation"
+        >
+          <div className="flex min-w-max items-center gap-1">
+            {([
+              ['/resources', 'Resources'],
+              ['/research-papers', 'Research Papers'],
+              ['/blogs', 'Blogs'],
+              ['/communities', 'Communities'],
+            ] as const).map(([to, label]) => (
+              <NavLink
+                key={to}
+                to={to}
+                className={({ isActive }) => [
+                  'px-2 py-1 text-[11px] font-mono rounded-sm transition-colors whitespace-nowrap',
+                  isActive
+                    ? 'text-neutral-900 dark:text-neutral-100 bg-neutral-100 dark:bg-neutral-800'
+                    : 'text-neutral-400 dark:text-neutral-500 hover:text-neutral-800 dark:hover:text-neutral-200',
+                ].join(' ')}
+              >
+                {label}
+              </NavLink>
+            ))}
+          </div>
+        </nav>
 
         <motion.div
           className="flex items-center gap-2"

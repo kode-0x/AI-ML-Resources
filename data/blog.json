@@ -1,0 +1,287 @@
+{
+  "id": "blogs",
+  "title": "Blogs",
+  "description": "Curated blogs and personal sites by researchers, engineers, and practitioners covering deep learning, LLMs, machine learning, and AI.",
+  "order": 2,
+  "resources": [
+    {
+      "id": "karpathy-blog",
+      "title": "Andrej Karpathy",
+      "author": "Karpathy",
+      "url": "https://karpathy.github.io/",
+      "type": "blog",
+      "tags": ["deep-learning", "visualization"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "colah-blog",
+      "title": "Christopher Olah",
+      "author": "Olah",
+      "url": "https://colah.github.io/",
+      "type": "blog",
+      "tags": ["deep-learning", "visualization", "explanations"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "lilian-blog",
+      "title": "Lilian Weng",
+      "author": "Weng",
+      "url": "https://lilianweng.github.io/",
+      "type": "blog",
+      "tags": ["llm", "rl", "deep-learning"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "jalammar-blog",
+      "title": "Jay Alammar",
+      "author": "Alammar",
+      "url": "https://jalammar.github.io/",
+      "type": "blog",
+      "tags": ["transformers", "visualization", "nlp"],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "sebastian-blog",
+      "title": "Sebastian Raschka",
+      "author": "Raschka",
+      "url": "https://sebastianraschka.com/blog/",
+      "type": "blog",
+      "tags": ["machine-learning", "deep-learning"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "huyen-blog",
+      "title": "Chip Huyen",
+      "author": "Huyen",
+      "url": "https://huyenchip.com/blog/",
+      "type": "blog",
+      "tags": ["ml-systems", "production", "llm"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "eugeneyan-blog",
+      "title": "Eugene Yan",
+      "author": "Yan",
+      "url": "https://eugeneyan.com/writing/",
+      "type": "blog",
+      "tags": ["ml-systems", "production"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "siboehm-blog",
+      "title": "siboehm",
+      "author": "siboehm",
+      "url": "https://siboehm.com/",
+      "type": "blog",
+      "tags": ["cuda", "optimization", "performance"],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "denny-blog",
+      "title": "Denny Britz",
+      "author": "Britz",
+      "url": "https://dennybritz.com/",
+      "type": "blog",
+      "tags": ["deep-learning", "rl", "nlp"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "aleksa-blog",
+      "title": "Aleksa Gordić",
+      "author": "Gordić",
+      "url": "https://www.aleksagordic.com/blog",
+      "type": "blog",
+      "tags": ["deep-learning", "ml-systems"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "rsrch-space",
+      "title": "rsrch.space",
+      "author": "rsrch.space",
+      "url": "https://rsrch.space/",
+      "type": "blog",
+      "tags": ["research", "papers", "summaries"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "sander-blog",
+      "title": "Sander Dieleman",
+      "author": "Dieleman",
+      "url": "https://sander.ai/posts/",
+      "type": "blog",
+      "tags": ["generative-models", "deep-learning"],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "emilien-blog",
+      "title": "Emilien Dupont",
+      "author": "Dupont",
+      "url": "https://emiliendupont.github.io/blog",
+      "type": "blog",
+      "tags": ["neural-odes", "deep-learning"],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "nicholas-blog",
+      "title": "Nicholas Carlini",
+      "author": "Carlini",
+      "url": "https://nicholas.carlini.com/writing",
+      "type": "blog",
+      "tags": ["adversarial", "security", "ml"],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mlif-blog",
+      "title": "Machine Learning is Fun",
+      "author": "Adam Geitgey",
+      "url": "https://www.machinelearningisfun.com/",
+      "type": "blog",
+      "tags": ["deep-learning", "explainers"],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "victor-blog",
+      "title": "Victor Zhou",
+      "author": "Zhou",
+      "url": "https://victorzhou.com/",
+      "type": "blog",
+      "tags": ["neural-networks", "beginner-friendly"],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "atcold-blog",
+      "title": "Alfredo Canziani",
+      "author": "Canziani",
+      "url": "https://atcold.github.io/blog.html",
+      "type": "blog",
+      "tags": ["deep-learning", "nlp"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "nielsen-blog",
+      "title": "Michael Nielsen",
+      "author": "Nielsen",
+      "url": "https://michaelnotebook.com/index.html",
+      "type": "blog",
+      "tags": ["neural-networks", "foundations"],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "inference-blog",
+      "title": "inFERENCe",
+      "author": "inFERENCe",
+      "url": "https://www.inference.vc/",
+      "type": "blog",
+      "tags": ["ai", "analysis", "research"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "gdb-blog",
+      "title": "Greg Brockman",
+      "author": "Brockman",
+      "url": "https://blog.gregbrockman.com/",
+      "type": "blog",
+      "tags": ["ai", "llm"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "simon-blog",
+      "title": "Simon Willison",
+      "author": "Willison",
+      "url": "https://simonwillison.net/",
+      "type": "blog",
+      "tags": ["llm", "ai-tools", "practical"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "hamel-blog",
+      "title": "Hamel Husain",
+      "author": "Husain",
+      "url": "https://hamel.dev/",
+      "type": "blog",
+      "tags": ["ml-systems", "production"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "jaykmody-blog",
+      "title": "Jay Mody",
+      "author": "Mody",
+      "url": "https://jaykmody.com/blog/gpt-from-scratch/",
+      "type": "blog",
+      "tags": ["llm", "from-scratch"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "vgel-blog",
+      "title": "VGEL Blog",
+      "author": "VGEL",
+      "url": "https://vgel.me/posts/",
+      "type": "blog",
+      "tags": ["deep-learning", "nlp"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mastery-blog",
+      "title": "Machine Learning Mastery",
+      "author": "Brownlee",
+      "url": "https://machinelearningmastery.com/",
+      "type": "blog",
+      "tags": ["tutorials", "machine-learning"],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "poloclub-blog",
+      "title": "Polo Club DataX",
+      "author": "Polo Club",
+      "url": "https://poloclub.github.io/#research-ai",
+      "type": "blog",
+      "tags": ["visualization", "research"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "bair-blog",
+      "title": "Berkeley AI Research",
+      "author": "BAIR",
+      "url": "https://bair.berkeley.edu/blog/",
+      "type": "blog",
+      "tags": ["research", "ai"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "anthropic-blog",
+      "title": "Anthropic Research",
+      "author": "Anthropic",
+      "url": "https://www.anthropic.com/research",
+      "type": "blog",
+      "tags": ["llm", "ai-safety", "research"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "openai-blog",
+      "title": "OpenAI Research",
+      "author": "OpenAI",
+      "url": "https://openai.com/news/research/",
+      "type": "blog",
+      "tags": ["llm", "research"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "google-blog",
+      "title": "Google Research Blog",
+      "author": "Google",
+      "url": "https://research.google/blog/",
+      "type": "blog",
+      "tags": ["research", "ai"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "thinking-machines-blog",
+      "title": "Thinking Machines",
+      "author": "Thinking Machines",
+      "url": "https://thinkingmachines.ai/blog/",
+      "type": "blog",
+      "tags": ["ai", "ml-applications"],
+      "difficulty": "intermediate"
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "id": "communities",
+  "title": "Communities",
+  "description": "Active Discord servers and Reddit communities for machine learning, deep learning, AI research, and LLM development.",
+  "order": 3,
+  "resources": [
+    {
+      "id": "groundzero-ai",
+      "title": "GroundZero AI",
+      "author": "Discord",
+      "url": "https://discord.gg/tdztf4kXvz",
+      "type": "community",
+      "tags": ["discord", "learning", "beginners"],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "eureka-labs",
+      "title": "Eureka Labs",
+      "author": "Discord",
+      "url": "https://discord.gg/axGCnnQ5Mm",
+      "type": "community",
+      "tags": ["discord", "research", "projects"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "gpu-mode",
+      "title": "GPU MODE",
+      "author": "Discord",
+      "url": "https://discord.gg/g5gAD2vFcm",
+      "type": "community",
+      "tags": ["discord", "cuda", "optimization", "performance"],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "umar-jamil",
+      "title": "Umar Jamil AI",
+      "author": "Discord",
+      "url": "https://discord.gg/GwRfpxPCnH",
+      "type": "community",
+      "tags": ["discord", "learning", "implementation"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "the-neural-nest",
+      "title": "The Neural Nest",
+      "author": "Discord",
+      "url": "https://discord.gg/qt3aPSGNNk",
+      "type": "community",
+      "tags": ["discord", "general", "networking"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "thebloke-ai",
+      "title": "TheBloke AI",
+      "author": "Discord",
+      "url": "https://discord.gg/SxswPydGRU",
+      "type": "community",
+      "tags": ["discord", "llm", "local-models"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "fastai",
+      "title": "fast.ai",
+      "author": "Discord",
+      "url": "https://discord.gg/zJy2PKwWDu",
+      "type": "community",
+      "tags": ["discord", "learning", "courses"],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "latentspace",
+      "title": "Latent Space",
+      "author": "Discord",
+      "url": "https://discord.gg/KaM9H6QQ5c",
+      "type": "community",
+      "tags": ["discord", "llm", "industry"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "mech-interp",
+      "title": "Mechanistic Interpretability",
+      "author": "Discord",
+      "url": "https://discord.gg/kfAx26aZY3",
+      "type": "community",
+      "tags": ["discord", "research", "interpretability"],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "eleutherai",
+      "title": "EleutherAI",
+      "author": "Discord",
+      "url": "https://discord.gg/RPKhmstvG2",
+      "type": "community",
+      "tags": ["discord", "open-source", "llm", "research"],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ml-ai",
+      "title": "r/MachineLearning",
+      "author": "Reddit",
+      "url": "https://www.reddit.com/r/MachineLearning/",
+      "type": "community",
+      "tags": ["reddit", "research", "papers"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "deeplearning",
+      "title": "r/deeplearning",
+      "author": "Reddit",
+      "url": "https://www.reddit.com/r/deeplearning/",
+      "type": "community",
+      "tags": ["reddit", "learning", "research"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "local-llama",
+      "title": "r/LocalLLaMA",
+      "author": "Reddit",
+      "url": "https://www.reddit.com/r/LocalLLaMA/",
+      "type": "community",
+      "tags": ["reddit", "llm", "local-models", "practical"],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "chatgpt",
+      "title": "r/ChatGPT",
+      "author": "Reddit",
+      "url": "https://www.reddit.com/r/ChatGPT/",
+      "type": "community",
+      "tags": ["reddit", "llm", "tools", "general"],
+      "difficulty": "beginner"
+    }
+  ]
+}

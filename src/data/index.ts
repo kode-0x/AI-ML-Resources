@@ -13,9 +13,21 @@ const RESOURCE_TYPES: ResourceType[] = [
   'documentation',
   'paper',
   'tool',
+  'blog',
+  'community',
+  'docs',
+  'github',
+  'interactive',
+  'tutorial',
+  'slides',
 ];
 
 const DIFFICULTIES: Difficulty[] = ['beginner', 'intermediate', 'advanced'];
+const DIFFICULTY_ORDER: Record<Difficulty, number> = {
+  beginner: 0,
+  intermediate: 1,
+  advanced: 2,
+};
 
 function isRecord(value: unknown): value is Record<string, unknown> {
   return typeof value === 'object' && value !== null;
@@ -32,7 +44,6 @@ function isResource(value: unknown): value is Resource {
     RESOURCE_TYPES.includes(value.type as ResourceType) &&
     Array.isArray(value.tags) &&
     value.tags.every((tag) => typeof tag === 'string') &&
-    typeof value.description === 'string' &&
     DIFFICULTIES.includes(value.difficulty as Difficulty)
   );
 }
@@ -49,12 +60,19 @@ function parseSection(value: unknown): Section | null {
     return null;
   }
 
+  const resources = value.resources.filter(isResource).map((resource) => ({
+    ...resource,
+    description: typeof resource.description === 'string' ? resource.description : '',
+  }));
+
   return {
     id: value.id,
     title: value.title,
     description: value.description,
     order: value.order,
-    resources: value.resources.filter(isResource),
+    resources: resources.sort(
+      (a, b) => DIFFICULTY_ORDER[a.difficulty] - DIFFICULTY_ORDER[b.difficulty],
+    ),
   };
 }
 

@@ -19,7 +19,7 @@ export function ResourceCard({ resource }: ResourceCardProps) {
   return (
     <motion.article
       variants={reduced ? {} : fadeUp}
-      className="group h-[280px] flex flex-col border border-neutral-200 dark:border-neutral-700 rounded-sm p-4 bg-white dark:bg-neutral-900 cursor-default transition-colors"
+      className="group h-[280px] min-w-0 w-full overflow-hidden flex flex-col border border-neutral-200 dark:border-neutral-700 rounded-sm p-3 sm:p-4 bg-white dark:bg-neutral-900 cursor-default transition-colors"
       whileHover={reduced ? {} : {
         y: -2,
         borderColor: '#737373',
@@ -27,8 +27,8 @@ export function ResourceCard({ resource }: ResourceCardProps) {
       }}
       transition={spring.gentle}
     >
-      <div className="flex items-center justify-between mb-2">
-        <div className="flex items-center gap-1.5">
+      <div className="flex min-h-[24px] items-center justify-between gap-2 mb-2 shrink-0">
+        <div className="flex min-w-0 items-center gap-1.5 overflow-hidden">
           <ResourceTypeBadge type={resource.type} />
           {resource.tags.includes('paid') && <PaidBadge />}
         </div>
@@ -39,10 +39,10 @@ export function ResourceCard({ resource }: ResourceCardProps) {
         href={resource.url}
         target="_blank"
         rel="noopener noreferrer"
-        className="group/link inline-flex items-start gap-1.5 mb-1 min-h-[40px] rounded-sm focus:outline-none focus-visible:ring-2 focus-visible:ring-neutral-400 dark:focus-visible:ring-neutral-600"
+        className="group/link inline-flex min-w-0 w-full items-start gap-1.5 mb-1 min-h-[40px] shrink-0 rounded-sm focus:outline-none focus-visible:ring-2 focus-visible:ring-neutral-400 dark:focus-visible:ring-neutral-600"
         aria-label={`${resource.title} — opens in new tab`}
       >
-        <span className="text-sm font-medium text-neutral-900 dark:text-neutral-100 leading-snug line-clamp-2 group-hover/link:underline underline-offset-2">
+        <span className="min-w-0 text-sm font-medium text-neutral-900 dark:text-neutral-100 leading-snug line-clamp-2 group-hover/link:underline underline-offset-2">
           {resource.title}
         </span>
         <ExternalLink
@@ -52,15 +52,15 @@ export function ResourceCard({ resource }: ResourceCardProps) {
         />
       </a>
 
-      <p className="text-xs text-neutral-400 dark:text-neutral-500 font-mono mb-2 truncate">
+      <p className="min-w-0 text-xs text-neutral-400 dark:text-neutral-500 font-mono mb-2 shrink-0 truncate">
         {resource.author}
       </p>
 
-      <p className="text-xs text-neutral-600 dark:text-neutral-400 leading-relaxed mb-3 line-clamp-4 min-h-[64px]">
+      <p className="text-xs text-neutral-600 dark:text-neutral-400 leading-relaxed mb-3 h-[64px] shrink-0 line-clamp-4 overflow-hidden">
         {resource.description}
       </p>
 
-      <div className="mt-auto max-h-[48px] overflow-hidden flex flex-wrap content-start gap-1">
+      <div className="mt-auto h-[48px] min-h-0 overflow-hidden flex flex-wrap content-start gap-1">
         {resource.tags.filter((tag) => tag !== 'paid').map((tag) => (
           <TagBadge
             key={tag}

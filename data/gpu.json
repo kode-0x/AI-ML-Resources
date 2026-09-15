@@ -1,0 +1,134 @@
+{
+  "id": "gpu",
+  "title": "GPU Computing",
+  "description": "Free GPU and CUDA resources covering parallel programming, GPU optimization, CUDA fundamentals, and high-performance computing.",
+  "order": 8,
+  "resources": [
+    {
+      "id": "is-parallel-programming-hard",
+      "title": "Is Parallel Programming Hard, And, If So, What Can You Do About It?",
+      "author": "Books",
+      "url": "https://mirrors.edge.kernel.org/pub/linux/kernel/people/paulmck/perfbook/perfbook.2023.06.11a.pdf",
+      "type": "book",
+      "tags": ["foundations"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "pmpp",
+      "title": "Programming Massively Parallel Processors",
+      "author": "Books",
+      "url": "https://github.com/h3ct0rjs/HighPerformanceComputing/blob/master/BookRef/Programming%20Massively%20Parallel%20Processors.pdf",
+      "type": "book",
+      "tags": ["cuda", "hpc"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "cuda-cpp-guide",
+      "title": "CUDA C++ Programming Guide",
+      "author": "Documentation",
+      "url": "https://docs.nvidia.com/cuda/pdf/CUDA_C_Programming_Guide.pdf",
+      "type": "book",
+      "tags": ["cuda", "c++"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "intro-to-parallel-programming",
+      "title": "Intro to Parallel Programming",
+      "author": "Courses",
+      "url": "https://www.youtube.com/playlist?list=PLAwxTw4SYaPnFKojVQrmyOGFCqHTxfdv2",
+      "type": "course",
+      "tags": ["foundations"],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "cuda-elliot",
+      "title": "CUDA Programming Course - High-Performance Computing with GPUs",
+      "author": "Courses",
+      "url": "https://www.youtube.com/watch?v=86FAWCzIe_4",
+      "type": "course",
+      "tags": ["cuda", "hpc"],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "python-parallel-computing",
+      "title": "Python Parallel Computing",
+      "author": "Courses",
+      "url": "https://www.youtube.com/playlist?list=PL30NBs02RsiUbmXVPDo56APsU0xa6gfL2",
+      "type": "course",
+      "tags": ["parallel-programming", "python"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "nhr-fau-parallel-programming",
+      "title": "Parallel Programming - NHR@FAU",
+      "author": "Courses",
+      "url": "https://www.youtube.com/playlist?list=PLxVedhmuwLq2Ie88ODuZufCGorawPO1AP",
+      "type": "course",
+      "tags": ["parallel-programming", "hpc"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "cuda-mode",
+      "title": "GPU MODE - CUDA Deep Dive",
+      "author": "Courses",
+      "url": "https://www.youtube.com/@GPUMODE",
+      "type": "course",
+      "tags": ["cuda", "optimization"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "programming-parallel-computers",
+      "title": "Programming Parallel Computers",
+      "author": "Tutorials",
+      "url": "https://ppc.cs.aalto.fi/",
+      "type": "article",
+      "tags": ["parallel-programming"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "parallel-programming-opencl",
+      "title": "Parallel Programming with OpenCL",
+      "author": "Tutorials",
+      "url": "https://leonardoaraujosantos.gitbook.io/opencl",
+      "type": "article",
+      "tags": ["opencl", "parallel-programming"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "cuda-siboehm",
+      "title": "How to Optimize a CUDA Matmul Kernel for cuBLAS-like Performance: a Worklog",
+      "author": "Tutorials",
+      "url": "https://siboehm.com/articles/22/CUDA-MMM",
+      "type": "article",
+      "tags": ["cuda", "optimization"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "cuda-toolkit-docs",
+      "title": "CUDA Toolkit Documentation",
+      "author": "Documentation",
+      "url": "https://docs.nvidia.com/cuda/",
+      "type": "docs",
+      "tags": ["cuda", "reference"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "gpu-glossary",
+      "title": "GPU Glossary",
+      "author": "Reference",
+      "url": "https://modal.com/gpu-glossary",
+      "type": "article",
+      "tags": ["reference"],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "horace-he-deep-learning-brrrr",
+      "title": "Making Deep Learning Go Brrrr - Horace He",
+      "author": "Tutorials",
+      "url": "https://horace.io/brrr_intro.html",
+      "type": "article",
+      "tags": ["optimization", "deep-learning"],
+      "difficulty": "intermediate"
+    }
+  ]
+}

@@ -1,15 +1,31 @@
 import { X, SlidersHorizontal } from 'lucide-react';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { AnimatePresence, motion, useReducedMotion } from 'framer-motion';
 import { TagFilter } from './TagFilter';
 import { useFilterStore } from '../store/useFilterStore';
 import { fadeIn, slideUp, spring } from '../lib/animations';
+import type { Resource } from '../types';
 
-export function MobileFilterDrawer() {
+interface MobileFilterDrawerProps {
+  resources: Resource[];
+}
+
+export function MobileFilterDrawer({ resources }: MobileFilterDrawerProps) {
   const [open, setOpen] = useState(false);
   const { hasActiveFilters } = useFilterStore();
   const active = hasActiveFilters();
   const reduced = useReducedMotion();
+
+  useEffect(() => {
+    if (!open) return;
+
+    const closeOnEscape = (event: KeyboardEvent) => {
+      if (event.key === 'Escape') setOpen(false);
+    };
+
+    document.addEventListener('keydown', closeOnEscape);
+    return () => document.removeEventListener('keydown', closeOnEscape);
+  }, [open]);
 
   return (
     <>
@@ -39,7 +55,7 @@ export function MobileFilterDrawer() {
         {active ? 'filters active' : 'filter'}
       </motion.button>
 
-      <AnimatePresence>
+      <AnimatePresence mode="wait">
         {open && (
           <>
             <motion.div
@@ -80,7 +96,7 @@ export function MobileFilterDrawer() {
                   <X size={16} strokeWidth={2} />
                 </motion.button>
               </div>
-              <TagFilter />
+              <TagFilter resources={resources} />
             </motion.aside>
           </>
         )}

@@ -5,7 +5,14 @@ export type ResourceType =
   | 'article'
   | 'documentation'
   | 'paper'
-  | 'tool';
+  | 'tool'
+  | 'blog'
+  | 'community'
+  | 'docs'
+  | 'github'
+  | 'interactive'
+  | 'tutorial'
+  | 'slides';
 
 export type Difficulty = 'beginner' | 'intermediate' | 'advanced';
 
