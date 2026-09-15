@@ -35,8 +35,6 @@ export function Header() {
           <div className="flex min-w-max items-center gap-1">
             {([
               ['/resources', 'Resources'],
-              ['/machine-learning', 'Machine Learning'],
-              ['/deep-learning', 'Deep Learning'],
               ['/research-papers', 'Research Papers'],
               ['/blogs', 'Blogs'],
               ['/communities', 'Communities'],
