@@ -8,12 +8,14 @@ interface SectionHeaderProps {
   id: SectionId;
   title: string;
   description: string;
+  matchCount?: number;
 }
 
 export function SectionHeader({
   id,
   title,
   description,
+  matchCount,
 }: SectionHeaderProps) {
   const { openSections, toggleSection } = useFilterStore();
   const isOpen = openSections.has(id);
@@ -31,8 +33,13 @@ export function SectionHeader({
     >
       <div className="flex-1 min-w-0">
         <div>
-          <h2 className="text-base font-semibold text-neutral-900 dark:text-neutral-100 tracking-tight">
-            {title}
+          <h2 className="flex items-center gap-2 text-base font-semibold text-neutral-900 dark:text-neutral-100 tracking-tight">
+            {matchCount !== undefined && (
+              <span className="inline-flex min-w-5 items-center justify-center rounded-sm border border-neutral-200 dark:border-neutral-700 px-1 py-0.5 text-[10px] font-mono font-normal text-neutral-400 dark:text-neutral-500">
+                {matchCount}
+              </span>
+            )}
+            <span>{title}</span>
           </h2>
         </div>
         <p className="text-xs text-neutral-500 dark:text-neutral-400 mt-0.5 leading-relaxed">

@@ -25,6 +25,7 @@ export function ResourcesSection({ section, collapsible = true }: ResourcesSecti
     activeDifficulties,
     searchQuery,
   });
+  const hasSearchOrTagFilter = searchQuery.trim().length > 0 || activeTags.size > 0;
 
   return (
     <section
@@ -36,6 +37,7 @@ export function ResourcesSection({ section, collapsible = true }: ResourcesSecti
           id={section.id as SectionId}
           title={section.title}
           description={section.description}
+          matchCount={hasSearchOrTagFilter ? filtered.length : undefined}
         />
       )}
 

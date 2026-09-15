@@ -1,0 +1,278 @@
+{
+  "id": "machine-learning",
+  "title": "Machine Learning",
+  "description": "Free machine learning resources covering fundamentals, algorithms, tools, libraries, and practical applications — from linear regression to ensemble methods.",
+  "order": 5,
+  "resources": [
+    {
+      "id": "foundations-ml-mohri",
+      "title": "Foundations of Machine Learning",
+      "author": "Books",
+      "url": "https://cs.nyu.edu/~mohri/mlbook/",
+      "type": "book",
+      "tags": ["foundations", "theory", "advanced"],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ml-crash-course-google",
+      "title": "Machine Learning Crash Course - Google",
+      "author": "Courses",
+      "url": "https://developers.google.com/machine-learning/crash-course",
+      "type": "course",
+      "tags": ["foundations", "beginner-friendly", "interactive"],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "start-ml-louisfb01",
+      "title": "Start Machine Learning - Complete Guide",
+      "author": "GitHub",
+      "url": "https://github.com/louisfb01/start-machine-learning",
+      "type": "github",
+      "tags": ["roadmap", "complete-guide", "curated"],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "hands-on-ml-aurelien",
+      "title": "Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow",
+      "author": "Books",
+      "url": "https://github.com/ageron/handson-ml3",
+      "type": "github",
+      "tags": ["practical", "deep-learning", "implementation"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "statistical-learning-james",
+      "title": "An Introduction to Statistical Learning",
+      "author": "Books",
+      "url": "https://www.statlearning.com/",
+      "type": "book",
+      "tags": ["foundations", "statistics", "r"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "elements-statistical-learning",
+      "title": "The Elements of Statistical Learning",
+      "author": "Books",
+      "url": "https://hastie.su.domains/ElemStatLearn/",
+      "type": "book",
+      "tags": ["theory", "advanced", "comprehensive"],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "scikit-learn-docs",
+      "title": "Scikit-Learn Documentation",
+      "author": "Documentation",
+      "url": "https://scikit-learn.org/",
+      "type": "docs",
+      "tags": ["scikit-learn", "reference", "tutorials"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ml-mastery",
+      "title": "Machine Learning Mastery",
+      "author": "Tutorials",
+      "url": "https://machinelearningmastery.com/",
+      "type": "blog",
+      "tags": ["tutorials", "practical", "algorithms"],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "andrew-ng-ml",
+      "title": "Machine Learning Specialization - Andrew Ng",
+      "author": "Courses",
+      "url": "https://www.coursera.org/specializations/machine-learning-introduction",
+      "type": "course",
+      "tags": ["foundations", "comprehensive", "beginner-friendly"],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "fcc-ml-course",
+      "title": "Foundations of Machine Learning and AI - FreeCodeCamp",
+      "author": "Courses",
+      "url": "https://www.youtube.com/watch?v=nKW8Ndu7Mjw",
+      "type": "course",
+      "tags": ["foundations", "video"],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "ml-roadmap",
+      "title": "Machine Learning Roadmap",
+      "author": "Roadmap",
+      "url": "https://roadmap.sh/machine-learning",
+      "type": "article",
+      "tags": ["roadmap", "learning-path"],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "tree-based-ml",
+      "title": "An Introduction to Tree-Based Models",
+      "author": "Tutorials",
+      "url": "https://explained.ai/",
+      "type": "article",
+      "tags": ["decision-trees", "ensemble", "visualization"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "random-forests-breiman",
+      "title": "Random Forests - Leo Breiman",
+      "author": "Papers",
+      "url": "https://link.springer.com/content/pdf/10.1023/a:1010933404324.pdf",
+      "type": "paper",
+      "tags": ["ensemble", "random-forests", "seminal"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "xgboost-docs",
+      "title": "XGBoost Documentation",
+      "author": "Documentation",
+      "url": "https://xgboost.readthedocs.io/",
+      "type": "docs",
+      "tags": ["gradient-boosting", "xgboost", "reference"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "svm-tutorial",
+      "title": "A Tutorial on Support Vector Machines",
+      "author": "Tutorials",
+      "url": "https://www.microsoft.com/en-us/research/publication/a-tutorial-on-support-vector-machines-for-pattern-recognition/",
+      "type": "paper",
+      "tags": ["svm", "classification", "kernel-methods"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "pca-tutorial",
+      "title": "A Tutorial on Principal Component Analysis",
+      "author": "Tutorials",
+      "url": "https://arxiv.org/pdf/1404.1100",
+      "type": "paper",
+      "tags": ["dimensionality-reduction", "pca", "tutorial"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "clustering-kmeans",
+      "title": "K-Means Clustering: Algorithms and Applications",
+      "author": "Tutorials",
+      "url": "https://www.datasciencecentral.com/clustering-algorithms/",
+      "type": "article",
+      "tags": ["clustering", "k-means", "unsupervised"],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "feature-engineering-handbook",
+      "title": "Feature Engineering Handbook",
+      "author": "Books",
+      "url": "https://featureengineering.org/",
+      "type": "book",
+      "tags": ["feature-engineering", "practical"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "data-preprocessing",
+      "title": "Data Preprocessing Guide",
+      "author": "Tutorials",
+      "url": "https://www.kdnuggets.com/2020/07/preprocessing-machine-learning.html",
+      "type": "article",
+      "tags": ["data-preprocessing", "cleaning", "practical"],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "model-evaluation-metrics",
+      "title": "Model Evaluation Metrics Guide",
+      "author": "Tutorials",
+      "url": "https://scikit-learn.org/stable/modules/model_evaluation.html",
+      "type": "docs",
+      "tags": ["evaluation", "metrics", "validation"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "cross-validation",
+      "title": "Cross-Validation in Machine Learning",
+      "author": "Tutorials",
+      "url": "https://scikit-learn.org/stable/modules/cross_validation.html",
+      "type": "docs",
+      "tags": ["model-selection", "cross-validation"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "hyperparameter-tuning",
+      "title": "Hyperparameter Tuning Guide",
+      "author": "Tutorials",
+      "url": "https://www.kdnuggets.com/2016/02/guide-hyperparameter-tuning.html",
+      "type": "article",
+      "tags": ["hyperparameter-optimization", "practical"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ml-interpretability",
+      "title": "Interpretable Machine Learning",
+      "author": "Books",
+      "url": "https://christophm.github.io/interpretable-ml-book/",
+      "type": "book",
+      "tags": ["interpretability", "explainability", "advanced"],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ensemble-methods",
+      "title": "Ensemble Learning Methods",
+      "author": "Tutorials",
+      "url": "https://www.datacamp.com/tutorial/ensemble-learning-python",
+      "type": "article",
+      "tags": ["ensemble", "bagging", "boosting"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "gradient-descent",
+      "title": "An Overview of Gradient Descent Optimization Algorithms",
+      "author": "Papers",
+      "url": "https://arxiv.org/pdf/1609.04747",
+      "type": "paper",
+      "tags": ["optimization", "gradient-descent"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "bayesian-optimization",
+      "title": "Bayesian Optimization in Action",
+      "author": "Books",
+      "url": "https://www.manning.com/books/bayesian-optimization-in-action",
+      "type": "book",
+      "tags": ["optimization", "bayesian", "hyperparameters"],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "imbalanced-learning",
+      "title": "Imbalanced Learning Guide",
+      "author": "Tutorials",
+      "url": "https://imbalanced-learn.org/",
+      "type": "docs",
+      "tags": ["class-imbalance", "sampling", "practical"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "causal-ml",
+      "title": "Causal Machine Learning",
+      "author": "Books",
+      "url": "https://www.manning.com/books/causal-machine-learning",
+      "type": "book",
+      "tags": ["causal-inference", "advanced"],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ml-systems-design",
+      "title": "Designing Machine Learning Systems",
+      "author": "Books",
+      "url": "https://www.oreilly.com/library/view/designing-machine-learning/9781098107956/",
+      "type": "book",
+      "tags": ["ml-systems", "production", "engineering"],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "ml-ethics",
+      "title": "Fairness and Machine Learning",
+      "author": "Books",
+      "url": "https://fairmlbook.org/",
+      "type": "book",
+      "tags": ["fairness", "ethics", "bias"],
+      "difficulty": "intermediate"
+    }
+  ]
+}

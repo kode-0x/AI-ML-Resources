@@ -31,7 +31,7 @@ export function HomePage({ title, description, sections, collapsibleSections = t
           animate="visible"
           transition={{ delay: 0.08 }}
         >
-          <div className="sticky top-20 space-y-6">
+          <div className="sticky top-20 max-h-[calc(100vh-5rem)] overflow-y-auto space-y-6 pb-4">
             <SearchBar />
             <TagFilter resources={sections.flatMap((section) => section.resources)} />
           </div>
